@@ -10,6 +10,7 @@
 	margin-bottom:30px;
 	font-weight:700;
 	font-size:65px;
+	line-height:1.2;
 	}
 	
 .uiuxdesigner{
@@ -19,6 +20,7 @@
 
 .seattle{
 	margin-top:20px;
+	margin-bottom:20px;
 }
 
 .social_media{
@@ -34,4 +36,11 @@
 	right:0px;
 	top:150px;
 	z-index:1;
+}
+
+/*------MONOCLE------*/
+
+.monocle_bg{
+	background-color:#45b3bc;
+	height:450px;
 }
