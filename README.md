@@ -7,6 +7,6 @@ slabserif3@gmail.com
 
 www.facebook.com/tracysherwin
 
-Twitter: @tracy_sherwin
+<a href="https://twitter.com/Tracy_Sherwin">@tracy_sherwin</a>
 
 www.linkedin.com/in/tracysherwin
