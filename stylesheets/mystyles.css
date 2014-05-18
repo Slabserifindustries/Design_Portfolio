@@ -20,7 +20,8 @@
 
 .seattle{
 	margin-top:20px;
-	margin-bottom:20px;
+	margin-bottom:100px;
+	font-weight: 300;
 }
 
 .social_media{
@@ -38,9 +39,28 @@
 	z-index:1;
 }
 
+
 /*------MONOCLE------*/
 
+.center_object{
+	margin:0 auto;
+	display:block;
+
+}
+
 .monocle_bg{
+	box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  padding-top:50px;
+    padding-bottom:50px;
 	background-color:#45b3bc;
-	height:450px;
+}
+
+.monocle_bg_nopad{
+	box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  padding-top:50px;
+	background-color:#45b3bc;
 }
