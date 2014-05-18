@@ -26,6 +26,11 @@
 	margin-top:65px;
 	margin-right:20px;
 	text-align:right;
+	color:#d8d8d8;
+}
+
+.social:hover{
+	color:#353535;
 }
 
 /*------MONOCLE------*/
