@@ -22,24 +22,6 @@
 	font-weight: 300;
 }
 
-.social_media{
-	width:100px;
-	height:250px;
-	box-sizing:border-box;
-  -moz-box-sizing:border-box;
-  -webkit-box-sizing:border-box;
-	border-left: 7px solid #d8d8d8;
-	border-top: 7px solid #d8d8d8;
-	border-bottom: 7px solid #d8d8d8;
-	position:absolute;
-	right:0px;
-	top:150px;
-	z-index:1;
-	padding:30px 36px;
-}
-
-
-
 /*------MONOCLE------*/
 
 .center_object{
