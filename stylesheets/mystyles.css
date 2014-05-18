@@ -48,13 +48,13 @@
 	display:block;
 }
 
-.monocle_bg{
+.video_bg{
 	box-sizing:border-box;
   -moz-box-sizing:border-box;
   -webkit-box-sizing:border-box;
   padding-top:50px;
     padding-bottom:50px;
-	background-color:#45b3bc;
+	background-color:#4d4652;
 }
 
 .monocle_bg_nopad{
