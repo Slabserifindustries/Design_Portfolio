@@ -25,6 +25,7 @@
 .social{
 	text-align:right;
 	display:inline;
+	float:right;
 }
 
 .iconcolor{
