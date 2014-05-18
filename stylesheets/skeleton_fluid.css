@@ -115,6 +115,37 @@
     /* Note: Design for a width of 320px */
 
     @media only screen and (max-width: 767px) {
+	
+		.mono_splash{
+		visibility:hidden;
+		height:0px;
+		width:0px;
+		}
+		
+		.logo{
+		margin:0 auto;
+		display:block;
+	}
+	
+		h1, h2, h3, h4, h5, h6 {
+		text-align:center;
+		}
+		
+		.myname{
+		font-size:36px;
+		margin-top:100px;
+		margin-bottom:0px;
+		line-height:1;
+		}
+		
+		.uiuxdesigner{
+		font-size:24px;
+		}
+		
+		.seattle{
+		font-size:14px;
+		}
+		
         .container { width: 92%; }
         .container .columns,
         .container .column { margin: 0; }

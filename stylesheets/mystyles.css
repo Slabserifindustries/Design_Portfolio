@@ -9,12 +9,10 @@
 	margin-top:100px;
 	margin-bottom:30px;
 	font-weight:700;
-	font-size:65px;
 	line-height:1.2;
 	}
 	
 .uiuxdesigner{
-	font-size:36px;
 	font-weight: 300;
 }
 
@@ -33,7 +31,7 @@
 	border-left: 7px solid #d8d8d8;
 	border-top: 7px solid #d8d8d8;
 	border-bottom: 7px solid #d8d8d8;
-	position:fixed;
+	position:absolute;
 	right:0px;
 	top:150px;
 	z-index:1;
@@ -47,7 +45,6 @@
 .center_object{
 	margin:0 auto;
 	display:block;
-
 }
 
 .monocle_bg{
@@ -65,4 +62,8 @@
   -webkit-box-sizing:border-box;
   padding-top:50px;
 	background-color:#45b3bc;
+}
+
+.mono_splash{
+margin-top:50px;
 }
