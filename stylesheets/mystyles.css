@@ -48,20 +48,18 @@
 	display:block;
 }
 
-.video_bg{
+.bg_section{
 	box-sizing:border-box;
   -moz-box-sizing:border-box;
   -webkit-box-sizing:border-box;
   padding-top:50px;
-    padding-bottom:50px;
-	background-color:#4d4652;
 }
 
-.monocle_bg_nopad{
-	box-sizing:border-box;
-  -moz-box-sizing:border-box;
-  -webkit-box-sizing:border-box;
-  padding-top:50px;
+.purple{
+background-color:#4d4652;
+}
+
+.blue{
 	background-color:#45b3bc;
 }
 
