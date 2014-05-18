@@ -3,6 +3,7 @@
 
 .logo{
 	margin-top:40px;
+	display:inline;
 }
 
 .myname{
@@ -24,6 +25,7 @@
 
 .social{
 	text-align:right;
+	display:inline;
 }
 
 .iconcolor{
