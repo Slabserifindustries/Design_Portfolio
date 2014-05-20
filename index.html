@@ -74,10 +74,10 @@
 	</div>
 </div>-->
 
-<div class="container_full bg_section blue">	
+<div class="container_full blue">	
 	<div class="container clearfix">
 		<div class="sixteen columns">
-			<img class="center_object scale-with-grid" style="width:300px; margin-bottom:60px;" src="images/mono_logo.png" />
+			<img class="center_object scale-with-grid mono_logo" src="images/mono_logo.png" />
 			<div class="center_object" style="width:300px; text-align:center;">
 				<a href="#" class="button">View Project</a>
 			</div>
@@ -86,11 +86,11 @@
 	</div>
 </div>
 
-<div class="container_full bg_section purple">	
+<div class="container_full purple">	
 	<div class="container clearfix">
 		<div class="sixteen columns">
-			<h4 class="white" style="text-align:center; margin-bottom:10px;">DatStat Clinical Trials</h4>
-			<h6 class="white" style="text-align:center; margin-bottom:60px;">Marketing Video</h6>
+			<h4 class="section_header white">DatStat Clinical Trials</h4>
+			<h6 class="section_subheader white">Marketing Video</h6>
 			<div class="center_object" style="width:300px; text-align:center;">
 				<a href="#" class="button_purple">View Project</a>
 			</div>
@@ -101,13 +101,14 @@
 
 		<div class="container">
 			<div class="sixteen columns">
+			    <h4 class="section_header">Contact Me</h4>
 				<form action="MAILTO:slabserif3@gmail.com" method="post" enctype="text/plain">
-				Name:<br>
-				<input type="text" name="name" value="name"><br>
-				E-mail:<br>
-				<input type="text" name="mail" value="email address"><br>
-				Comment:<br>
-				<input type="text" name="comment" value="comment" size="50"><br><br>
+				<br>
+				<input type="text"  name="name" onfocus="if(this.value == 'name') { this.value = ''; }" value="name">
+				
+				<input type="text" name="mail" onfocus="if(this.value == 'email address') { this.value = ''; }" value="email address"><br>
+				<br>
+				<input type="text" name="message" onfocus="if(this.value == 'message') { this.value = ''; }" value="message" size="50"><br><br>
 				<input type="submit" value="Send">
 				<input type="reset" value="Reset">
 				</form>

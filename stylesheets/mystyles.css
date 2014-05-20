@@ -1,68 +1,84 @@
-
-/*----------HEADER--------------------------------------------*/
-
-.logo{
-	margin-top:40px;
-}
-
-.myname{
-	margin-top:100px;
-	margin-bottom:30px;
-	font-weight:700;
-	line-height:1.2;
-	}
-	
-.uiuxdesigner{
-	font-weight: 300;
-}
-
-.seattle{
-	margin-top:20px;
-	margin-bottom:100px;
-	font-weight: 300;
-}
-
-.social{
-	text-align:right;
-	display:inline;
-	float:right;
-	letter-spacing:20px;
-	margin-top:-65px;
-}
-
-.iconcolor{
-	color:#d8d8d8;
-	transition: all 0.3s ease;
-	font-size:26px;
-	letter-spacing:20px;
-}
-
-.iconcolor:hover{
-	color:#353535;
-}
-
-/*------MONOCLE------*/
-
-.center_object{
-	margin:0 auto;
-	display:block;
-}
-
-.bg_section{
-	box-sizing:border-box;
-  -moz-box-sizing:border-box;
-  -webkit-box-sizing:border-box;
-  padding-top:50px;
-}
+/*-----Text colors------*/
 
 .purple{
-background-color:#4d4652;
+	background-color:#4d4652;
 }
 
 .blue{
 	background-color:#45b3bc;
 }
 
+.white { 
+	color:#ffffff;
+}
+
+
+/*----------HEADER--------------------------------------------*/
+
+.logo {
+	margin-top:40px;
+}
+
+.myname {
+	margin-top:100px;
+	margin-bottom:30px;
+	font-weight:700;
+	line-height:1.2;
+}
+	
+.uiuxdesigner{
+	font-weight: 300;
+}
+
+.seattle {
+	margin-top:20px;
+	margin-bottom:100px;
+	font-weight: 300;
+}
+
+.social {
+	margin-top:-65px;
+	text-align:right;
+	display:inline;
+	float:right;
+	letter-spacing:20px;
+}
+
+.iconcolor {
+	color:#d8d8d8;
+	transition: all 0.3s ease;
+	font-size:26px;
+	letter-spacing:20px;
+}
+
+.iconcolor:hover {
+	color:#353535;
+}
+
+/*------Project Sections------*/
+
+.section_header {
+	margin-bottom:10px; 
+	margin-top:50px;
+	text-align:center; 
+}
+
+.section_subheader {
+	margin-bottom:60px;
+	text-align:center; 
+}
+
+.center_object {
+	margin:0 auto;
+	display:block;
+}
+
+.mono_logo {
+	width:300px; 
+	margin-bottom:60px;
+	margin-top:50px;
+}
+
 .mono_splash{
-margin-top:50px;
+	margin-top:50px;
 }
