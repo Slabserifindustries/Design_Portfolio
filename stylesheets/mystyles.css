@@ -1,3 +1,10 @@
+/*---Spcaing fixes-----*/
+
+.center_object {
+	margin:0 auto;
+	display:block;
+}
+
 /*-----Text colors------*/
 
 .purple{
@@ -68,9 +75,8 @@
 	text-align:center; 
 }
 
-.center_object {
-	margin:0 auto;
-	display:block;
+.section_graphic{
+	margin-top:45px;
 }
 
 .mono_logo {
@@ -79,6 +85,3 @@
 	margin-top:50px;
 }
 
-.mono_splash{
-	margin-top:50px;
-}
