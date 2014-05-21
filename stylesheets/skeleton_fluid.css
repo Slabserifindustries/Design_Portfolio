@@ -78,6 +78,7 @@
     /* Note: Design for a width of 768px */
 
     @media only screen and (min-width: 768px) and (max-width: 959px) {
+	
         .container                                  { width: 100%; }
         .container .column,
         .container .columns                         { margin-left: 1.302083333333333%; margin-right: 1.302083333333333%;  }
@@ -115,6 +116,25 @@
     /* Note: Design for a width of 320px */
 
     @media only screen and (max-width: 767px) {
+	
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	textarea,
+	select {
+	width:100%;
+	}
+	
+		input[type="text"]:focus,
+	input[type="password"]:focus,
+	input[type="email"]:focus,
+	textarea:focus {
+	width:100%;
+	}
+	
+	.input_message{
+	width:100%;
+	}
 	
 		.mono_splash{
 		visibility:hidden;

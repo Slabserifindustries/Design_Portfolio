@@ -98,8 +98,8 @@
 
 /* #Links
 ================================================== */
-	a, a:visited { color: #333; text-decoration: underline; outline: 0; }
-	a:hover, a:focus { color: #000; }
+	a, a:visited {  outline: 0; }
+	a:hover, a:focus { outline:0; }
 	p a, p a:visited { line-height: inherit; }
 
 
@@ -205,8 +205,8 @@
 	input[type="submit"]:active,
 	input[type="reset"]:active,
 	input[type="button"]:active {
+	color:#ffffff;
 }
-		
 
 	.button.full-width,
 	button.full-width,
@@ -230,7 +230,8 @@
 ================================================== */
 
 	form {
-		margin-bottom: 20px; }
+		margin-bottom: 20px;
+	}
 	fieldset {
 		margin-bottom: 20px; }
 	input[type="text"],
@@ -247,9 +248,9 @@
 		font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #777;
 		margin: 0;
-		width: 210px;
+		width: 50%;
 		max-width: 100%;
-		display: block;
+		display: inline;
 		margin-bottom: 20px;
 		background: #fff; }
 	select {
@@ -267,9 +268,9 @@
 		font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #777;
 		margin: 0;
-		width: 210px;
+		width: 50%;
 		max-width: 100%;
-		display: block;
+		display: inline;
 		margin-bottom: 20px;
 		background: #fff;}
 	textarea {
