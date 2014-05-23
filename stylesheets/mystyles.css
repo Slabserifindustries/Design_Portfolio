@@ -96,12 +96,20 @@
 }
 
 .already-visible {
+-webkit-transform:translateY(0);
   transform: translateY(0);
   animation: none;
   -webkit-animation:none;
 }
 
 @keyframes come-in {
+  to {
+    transform: translateY(0);
+	-webkit-transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes come-in {
   to {
     transform: translateY(0);
 	-webkit-transform: translateY(0);
