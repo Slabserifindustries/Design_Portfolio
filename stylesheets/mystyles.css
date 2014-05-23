@@ -82,6 +82,7 @@
 /*------Slide in Content--------*/
 
 .come-in {
+  -webkit-transform: translateY(150px);
   transform: translateY(150px);
     -webkit-animation: come-in 0.8s ease forwards;
   animation: come-in 0.8s ease forwards;
@@ -91,15 +92,18 @@
 
 .come-in:nth-child(odd) {
   animation-duration: 0.6s;
+    -webkit-animation-duration: 0.6s;
 }
 
 .already-visible {
   transform: translateY(0);
   animation: none;
+  -webkit-animation:none;
 }
 
 @keyframes come-in {
   to {
     transform: translateY(0);
+	-webkit-transform: translateY(0);
   }
 }
