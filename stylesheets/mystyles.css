@@ -79,9 +79,27 @@
 	margin-top:45px;
 }
 
-.mono_logo {
-	width:300px; 
-	margin-bottom:60px;
-	margin-top:50px;
+/*------Slide in Content--------*/
+
+.come-in {
+  transform: translateY(150px);
+    -webkit-animation: come-in 0.8s ease forwards;
+  animation: come-in 0.8s ease forwards;
+  animation-delay:0.1s;
+-webkit-animation-delay:0.1s; /* Safari and Chrome */
 }
 
+.come-in:nth-child(odd) {
+  animation-duration: 0.6s;
+}
+
+.already-visible {
+  transform: translateY(0);
+  animation: none;
+}
+
+@keyframes come-in {
+  to {
+    transform: translateY(0);
+  }
+}

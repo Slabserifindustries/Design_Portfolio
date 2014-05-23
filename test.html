@@ -1,134 +1,136 @@
+
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<html>
+
 <head>
 
-	<!-- Basic Page Needs
-  ================================================== -->
-	<meta charset="utf-8">
-	<title>Tracy Sherwin - UI/UX Designer</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+  <meta charset="UTF-8">
 
-	<!-- Mobile Specific Metas
-  ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!--
+Copyright (c) 2014 by Chris Coyier (http://codepen.io/chriscoyier/pen/DjmJe)
 
-	<!-- CSS
-  ================================================== -->
-	<link rel="stylesheet" href="stylesheets/base.css">
-	<link rel="stylesheet" href="stylesheets/skeleton_fluid.css">
-	<link rel="stylesheet" href="stylesheets/layout.css">
-	<link rel="stylesheet" href="stylesheets/mystyles.css">
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-	<!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400,700' rel='stylesheet' type='text/css'>
-	<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->
+
+  <title>Slide in from bottom boxes - CodePen</title>
+
+  <link rel="stylesheet" href="/assets/reset/normalize.css">
+
+  <style>* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+section {
+  background: #eee;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.module {
+  width: 48%;
+  min-height: 200px;
+  background: white;
+  position: relative;
+  float: left;
+  padding: 20px;
+  margin-right: 4%;
+  margin-bottom: 4%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.module:nth-child(even) {
+  margin-right: 0;
+}
+
+body {
+  background: url(http://s.cdpn.io/3/blurry-blue.jpg);
+  background-size: cover;
+  padding: 30px;
+}
+
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 0.8s ease forwards;
+}
+
+.come-in:nth-child(odd) {
+  animation-duration: 0.6s;
+}
+
+.already-visible {
+  transform: translateY(0);
+  animation: none;
+}
+
+@keyframes come-in {
+  to {
+    transform: translateY(0);
+  }
+}</style>
+
+  <script>
+    window.open    = function(){};
+    window.print   = function(){};
+    // Support hover state for mobile.
+    if (false) {
+      window.ontouchstart = function(){};
+    }
+
+    function __linkClick(e) {
+      parent.window.postMessage(this.href, '*');
+    };
+
+    function __bindToLinks() {
+      var __links = document.querySelectorAll('a');
+      for (var i = 0, l = __links.length; i < l; i++) {
+        if ( __links[i].getAttribute('data-t') == '_blank' ) {
+          __links[i].addEventListener('click', __linkClick, false);
+        }
+      }
+    }
+  </script>
+
+    <script src="/assets/libs/prefixfree.min.js"></script>
 
 </head>
+
 <body>
 
+  <section>
 
+  <div class="module"></div>
+  <div class="module"></div>
+  <div class="module"></div>
+  <div class="module"></div>
+  <div class="module"></div>
+  <div class="module"></div>
+  <div class="module"></div>
+  <div class="module"></div>
+  <div class="module"></div>
+  <div class="module"></div> 
+  <div class="module"></div>
+  <div class="module"></div>
+  <div class="module"></div>
+  <div class="module"></div>
+  <div class="module"></div>
+  <div class="module"></div>
+  <div class="module"></div>
+  <div class="module"></div>
+  <div class="module"></div>
+  <div class="module"></div>
+  <div class="module"></div>
+  <div class="module"></div>
+  <div class="module"></div>
+  <div class="module"></div>
 
-	<!-- Primary Page Layout
-	================================================== -->
-
-		<div class="container">
-		<div class="sixteen columns">
-			<img class="logo" src="images/logo.svg"/>
-				<div class="social">
-			<a href="www.facebook.com/tracysherwin"><i class="fa fa-facebook  iconcolor"></i></a>
-			<a href="www.twitter.com/tracy_sherwin"><i class="fa fa-twitter  iconcolor"></i></a>
-			<a href="www.linkedin.com/in/tracysherwin"><i class="fa fa-linkedin iconcolor"></i></a>
-		</div>
-			<h1 class="myname">Tracy Sherwin</h1>
-			<h3 class="uiuxdesigner">UI/UX Designer</h3>
-			<h5 class="seattle">based in Seattle, Wa.</h5>
-		</div>
-	
-	</div><!-- container -->
-	
-<!--<div class="container_full monocle_bg">	
-	<div class="container clearfix">
-		<div class="sixteen columns">
-			<div class="eight columns alpha">
-				<h4>Monocle</h4>
-				<p>Monocle is a survey creation and response analysis web app. Developed at data management company DatStat, Monocle is the attempt at bridging the gap between complex enterprise level tools, and intuitive yet friendly consumer oriented design. The basic features have been completed, and we are working on the next layer of complexity for the product.</p>
-			</div>
-				<div class="eight columns omega">
-				<h4 style="header">Monocle</h4>
-				<p>Monocle is a survey creation and response analysis web app. Developed at data management company DatStat, Monocle is the attempt at bridging the gap between complex enterprise level tools, and intuitive yet friendly consumer oriented design. The basic features have been completed, and we are working on the next layer of complexity for the product.</p>
-			</div>
-		</div>
-	</div>
-</div>-->
-
-<div class="container_full blue">	
-	<div class="container clearfix">
-		<div class="sixteen columns">
-			<img class="center_object scale-with-grid section_header" style="width:300px;" src="images/mono_logo.png" />
-			<h6 class="section_subheader white">Survey Form Web App</h6>
-			<div class="center_object" style="width:200px; text-align:center;">
-				<a href="#" class="button">View Project</a>
-			</div>
-			<img class="center_object scale-with-grid section_graphic module" src="images/mono_proj_splash.png"/>
-		</div>
-	</div>
-</div>
-
-<div class="container_full purple">	
-	<div class="container clearfix">
-		<div class="sixteen columns">
-			<h4 class="section_header white">DatStat Clinical Trials</h4>
-			<h6 class="section_subheader white">Marketing Video</h6>
-			<div class="center_object" style="width:200px; text-align:center;">
-				<a href="#" class="button_purple">View Project</a>
-			</div>
-			<section>
-			<img class="center_object scale-with-grid section_graphic module" style="margin-bottom:20px;" src="images/video_house.png"/>
-			</section>
-		</div>
-	</div>
-</div>
-
-		<div class="container">
-			    <h4 class="section_header section_subheader">Contact Me</h4>
-				<div class="row">
-				<div class="sixteen columns">
-					<div class="eight columns" style="text-align:right;">
-						<form action="MAILTO:slabserif3@gmail.com" method="post" enctype="text/plain">
-						<input type="text"  name="name" onfocus="if(this.value == 'name') { this.value = ''; }" value="name" >
-					</div>
-					<div class="eight columns">
-						<input type="text" name="mail" onfocus="if(this.value == 'email address') { this.value = ''; }" value="email address">
-					</div>
-				</div>
-				</div>
-					<div class="row">
-						<div class="sixteen columns">
-							<input type="text" name="message" onfocus="if(this.value == 'message') { this.value = ''; }"  value="message" size="50" style="display:block; margin:0 auto;">
-						</div>
-					</div>
-					<div class="row">
-						<div class="sixteen columns" style="text-align:center;">
-						<input type="submit" style="button_form" value="Send">
-							<input type="reset"  style="button_form" value="Reset">
-						</div>
-						</form>
-					</div>
-				</div>	
-		</div>
+</section>
 
   <script>
 /*!
@@ -211,7 +213,6 @@ win.scroll(function(event) {
     //@ sourceURL=pen.js
   </script>
 
-<!-- End Document
-================================================== -->
 </body>
+
 </html>

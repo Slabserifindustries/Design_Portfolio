@@ -289,6 +289,20 @@
 		font-weight: normal;
 		font-size: 13px;
 		color: #444; }
+		
+			input[type="submit"],
+	input[type="reset"]{
+		border:3px solid #353535;
+		color:#353535;
+	}
+	
+			
+			input[type="submit"]:hover,
+	input[type="reset"]:hover{
+		border:3px solid #353535;
+		background-color:#353535;
+		color:#ffffff;
+	}
 
 /* #Misc
 ================================================== */
