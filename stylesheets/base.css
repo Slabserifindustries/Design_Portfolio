@@ -295,6 +295,7 @@
 		border:3px solid #353535;
 		color:#353535;
 		 -webkit-appearance: none;
+		 -webkit-border-radius:0;
 		border-radius: 0;
 	}
 		
@@ -304,6 +305,7 @@
 		background-color:#353535;
 		color:#ffffff;
 		 -webkit-appearance: none;
+		 -webkit-border-radius:0;
 		border-radius: 0;
 	}
 
