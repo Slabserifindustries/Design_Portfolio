@@ -294,14 +294,15 @@
 	input[type="reset"]{
 		border:3px solid #353535;
 		color:#353535;
+		border-radius:none;
 	}
-	
-			
+		
 			input[type="submit"]:hover,
 	input[type="reset"]:hover{
 		border:3px solid #353535;
 		background-color:#353535;
 		color:#ffffff;
+		border-radius:none;
 	}
 
 /* #Misc
