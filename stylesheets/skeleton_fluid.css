@@ -153,8 +153,9 @@
 	}
 	
 	p{
-	font-size:21px;
+	font-size:18px;
 	margin:20px;
+	line-height: 26px; 
 	}
 	
 		h1, h2, h3, h4, h5, h6 {
