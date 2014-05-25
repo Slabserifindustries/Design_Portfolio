@@ -79,6 +79,18 @@
 	margin-top:45px;
 }
 
+/*------Project Detail Page-----*/
+
+.article_header {
+	margin-bottom:10px; 
+	margin-top:10px;
+}
+
+.article_subheader {
+	font-weight:300;
+}
+
+
 /*------Slide in Content--------*/
 
 .come-in {
