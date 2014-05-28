@@ -29,6 +29,7 @@
 .logo {
 	margin-top:40px;
 	width:45px;
+	z-index:1;
 }
 
 .myname {
@@ -106,6 +107,11 @@
 	right:0px;
 	z-index:-1;
 	height:100%;
+}
+
+.bleed_image{
+	margin-top:50px;
+	margin-bottom:50px;
 }
 
 /*------Slide in Content--------*/
