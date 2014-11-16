@@ -53,6 +53,8 @@
 
     .container .one-third.column                { width: 31.25%; }
     .container .two-thirds.column               { width: 64.58333333333333%; }
+	
+	.container_stretch .one-third.column                { width: 31.25%; }
 
     /* Offsets */
 	
