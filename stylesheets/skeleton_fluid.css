@@ -160,19 +160,6 @@
 	display:none;
 }
 
-.monocle_splash_mobile{
-	margin-top:-50px;
-	margin-bottom:-5px;
-	display: block;
-}
-
-
-.monocle_splash{
-	width:0px;
-	height:0px;
-	display:none;
-}
-	
 	p{
 	font-size:18px;
 	margin:10px;
