@@ -119,10 +119,15 @@
 	height:100%;
 }
 
+.monocle_splash_mobile{
+	display: none;
+}
+
 .monocle_splash{
-	width:100%;
+	max-width:700px;
 	position:absolute;
 	bottom:0px;
+	
 }
 
 .bleed_image{
