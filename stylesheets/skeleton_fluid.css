@@ -188,6 +188,11 @@
 		font-size:24px;
 		}
 		
+		.video-container{
+		margin-top:0px;
+		margin-bottom:15px;
+		}
+		
         .container { width: 92%; }
         .container .columns,
         .container .column { margin: 0; }
